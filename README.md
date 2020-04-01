@@ -1,5 +1,10 @@
 # Anotações C\#
 
+## Comandos linux
+
++ dotnet new console -o Questao
++ dotnet run
+
 ### Tipos de Dados
 
 + int: Inteiro;
@@ -13,6 +18,7 @@
 
 + Constates(**const**) são *"variaveis"* que não podem ser alteradas;
 + Exemplo:
+
   ```const
   const double PI = 3.14;
   ```
@@ -21,6 +27,7 @@
 
 + A keyword *var* é uma função para que o próprio c# defina o tipo de variável;
 + Exemplo:
+  
   ```var
   var num = 15;
   
@@ -31,21 +38,22 @@
 
 + Usado para verificar uma condição;
 + Exemplo de uso:
+  
   ```if
-  int x = 33; 
+  int x = 33;
 
-  if(x == 8) { 
-     Console.WriteLine("O valor de x é 8"); 
-  } 
-  else if(x == 18) { 
-     Console.WriteLine("O valor de x é 18"); 
-  } 
-  else if(x == 33) { 
-     Console.WriteLine("O valor de x é 33"); 
-  } 
-  else { 
-     Console.WriteLine("Sem correspondência"); 
-  } 
+  if(x == 8) {
+     Console.WriteLine("O valor de x é 8");
+  }
+  else if(x == 18) {
+     Console.WriteLine("O valor de x é 18");
+  }
+  else if(x == 33) {
+     Console.WriteLine("O valor de x é 33");
+  }
+  else {
+     Console.WriteLine("Sem correspondência");
+  }
   
   // Saídas "O valor de x é 33"
   ```
@@ -54,20 +62,21 @@
 
 + Usado para testar uma variavel;
 + Exemplo de uso:
+  
   ```switch
-  int num = 3; 
-  switch (num) 
-  { 
-    case 1: 
-     Console.WriteLine("one"); 
-     break; 
-    case 2: 
-     Console.WriteLine("two"); 
-     break; 
-    case 3: 
-     Console.WriteLine("three"); 
-     break; 
-  } 
+  int num = 3;
+  switch (num)
+  {
+    case 1:
+     Console.WriteLine("one");
+     break;
+    case 2:
+     Console.WriteLine("two");
+     break;
+    case 3:
+     Console.WriteLine("three");
+     break;
+  }
   // Resultados "três"
   ```
 
@@ -75,9 +84,10 @@
 
 + Executa um bloco de código, enquanto condição for **true**;
 + Exemplo de uso:
+  
   ```while
   int num = 0;
-  while(++num < 6) 
+  while(++num < 6)
   Console.WriteLine(num);
   /*
   1
@@ -92,12 +102,15 @@
 
 + Executa um bloco de código em número de vezes especifico;
 + Forma de uso:
+  
   ```forForma
   for (init; condition; increment){
      statement(s);
   }
   ```
+
 + Exemplo de uso:
+  
   ```forLoop
   for (int x = 0; x < 10; x+=3)
   {
@@ -116,6 +129,7 @@
 
 + Similar ao *while*, exceto que é garantido que ele vai executar pelo menos uma vez;
 + Exemplo de uso:
+  
   ```doWhile
   int a = 0;
   do {
@@ -130,12 +144,13 @@
   3
   4
   */
-  ``` 
+  ```
 
 ### break
 
 + Usado para para um loop imediatamente;
 + Exemplo de uso:
+  
   ```break
   int num = 0;
   while (num < 20)
@@ -160,6 +175,7 @@
 
 + Parecido com o *break*, com a única diferença que ele volta para o inicio do loop imediatamente;
 + Exemplo de uso:
+  
   ```continue
   for (int i = 0; i < 10; i++) {
     if (i == 5)
@@ -190,5 +206,4 @@
   |   \|\|   |  OR  | x \|\| y |
   |    !     |  NOT | !x       |
 
-
-### Operador ?
+### Operador \?
