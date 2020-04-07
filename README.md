@@ -76,6 +76,9 @@
     case 3:
      Console.WriteLine("three");
      break;
+    default:
+     Console.WriteLine("Valor Inválido!");
+     break;      
   }
   // Resultados "três"
   ```
