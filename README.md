@@ -14,6 +14,16 @@
 + bool: Booleano, true ou false;
 + string: Uma sequencia de caractere.
 
+### Operadores Lógicos
+
++ Operadores Lógicos são usados para junta expressões e retornar um valor booleano;
++ Operadores:
+  | Operador | Nome |   Uso    |
+  |   ---    |  --- |   ---    |
+  |    &&    |  AND | x && y   |
+  |   \|\|   |  OR  | x \|\| y |
+  |    !     |  NOT | !x       |
+  
 ### Constante
 
 + Constates(**const**) são *"variaveis"* que não podem ser alteradas;
@@ -195,15 +205,5 @@
   9
   */
   ```
-
-### Operadores Lógicos
-
-+ Operadores Lógicos são usados para junta expressões e retornar um valor booleano;
-+ Operadores:
-  | Operador | Nome |   Uso    |
-  |   ---    |  --- |   ---    |
-  |    &&    |  AND | x && y   |
-  |   \|\|   |  OR  | x \|\| y |
-  |    !     |  NOT | !x       |
 
 ### Operador \?
