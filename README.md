@@ -88,7 +88,7 @@
      break;
     default:
      Console.WriteLine("Valor Inválido!");
-     break;      
+     break;
   }
   // Resultados "três"
   ```
@@ -209,4 +209,24 @@
   */
   ```
 
-### Operador \?
+### Operador "?"
+
++ O operador **?** é um outro jeito de validar uma condicional;
++ O **?** funcionado seguinte jeito:
+  
+  ```?operator
+  (condicional)?"True":"False"
+  ```
+
++ Será julgado uma condicional se for verdadeira a primeira sentença será exposta e se for falsa a segunda setença será exposta;
++ Exemplo:
+
+  ```?exemplo
+  string resp, msg;
+
+  System.Console.WriteLine("Capital Brasil?");
+  resp = Console.ReadLine();
+
+  msg = (resp == "brasilia")?"Acertou":"Errou";
+  System.Console.WriteLine(msg);
+  ```

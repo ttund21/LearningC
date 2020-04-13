@@ -1,14 +1,15 @@
 ﻿using System;
 
-namespace Questao17
+namespace Questao19
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // 17) Entrar com dois números e imprimir o maior número (suponha números diferentes).
+            /* 19) Entrar com dois números e imprimi-los em ordem crescente (suponha números 
+            diferentes). */
 
-            // var
+           // var
             float num1, num2;
 
             // codigo
@@ -17,11 +18,11 @@ namespace Questao17
             Console.Write("2º Número: ");
             num2 = float.Parse(Console.ReadLine());
 
-            if (num1 > num2){
-                System.Console.WriteLine(num1);
+            if (num1 < num2){
+                System.Console.WriteLine($"{num1}, {num2}");
             }
-            else if (num2 > num1){
-                System.Console.WriteLine(num2);
+            else if (num2 < num1){
+                System.Console.WriteLine($"{num2}, {num1}");
             }
             else {
                 System.Console.WriteLine("São iguais.");
