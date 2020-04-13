@@ -14,16 +14,16 @@ namespace Questao32
             float produto, lucro;
 
             // codigo
-            System.Console.Write("Valor do produto: ");
+            System.Console.Write("Valor do produto: R$");
             produto = float.Parse(Console.ReadLine());
 
             if (produto < 20){
                 lucro = (produto * 45) / 100;
-                System.Console.WriteLine($"Valor da venda: R${produto + lucro}");
+                System.Console.WriteLine($"\nValor da venda: R${produto + lucro}");
             }
             else {
                 lucro = (produto * 30) / 100;
-                System.Console.WriteLine($"Valor da venda: R${produto + lucro}");
+                System.Console.WriteLine($"\nValor da venda: R${produto + lucro}");
             }
 
         }
