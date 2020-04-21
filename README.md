@@ -1,7 +1,22 @@
 # Anotações C\#
 
 ## Index
-**1.**[Tipos de Dados](#typeofdata)
+
+**1.** [Tipos de Dados](#typeofdata)
+**2.** [Operadores Lógicos](#logicOperator)
+**3.** [Constante](#constant)
+**4.** [Var Keyword](#varKeyword)
+**5.** [If Else](#ifElse)
+**6.** [Switch](#switch)
+**7.** [Loop While](#while)
+**8.** [Loop For](#for)
+**9.** [Loop Do-While](#doWhile)
+**10.** [Break](#break)
+**11.** [Continue](#continue)
+**12.** [Operator \?](#operatorI)
+**12.** [Operator \?](#operatorI)
+
+
 
 ## Comandos linux
 
@@ -10,7 +25,7 @@
 
 ## Basico
 
-### Tipos de Dados <a name="typeofdata"></a>
+### Tipos de Dados <a name="typeOfData"></a>
 
 + int: Inteiro;
 + float: Número com virgula(ponto);
@@ -19,7 +34,7 @@
 + bool: Booleano, true ou false;
 + string: Uma sequencia de caractere.
 
-### Operadores Lógicos
+### Operadores Lógicos <a name="logicOperator"></a>
 
 + Operadores Lógicos são usados para junta expressões e retornar um valor booleano;
 + Operadores:
@@ -29,7 +44,7 @@
   |   \|\|   |  OR  | x \|\| y |
   |    !     |  NOT | !x       |
   
-### Constante
+### Constante <a name="constant"></a>
 
 + Constates(**const**) são *"variaveis"* que não podem ser alteradas;
 + Exemplo:
@@ -38,7 +53,7 @@
   const double PI = 3.14;
   ```
 
-### Var keyword
+### Var keyword <a name="varKeyword"></a>
 
 + A keyword *var* é uma função para que o próprio c# defina o tipo de variável;
 + Exemplo:
@@ -49,7 +64,7 @@
   // num vai ser definido com um inteiro
   ```
 
-### Instrução if - else if - else
+### Instrução if - else if - else <a name="ifElse"></a>
 
 + Usado para verificar uma condição;
 + Exemplo de uso:
@@ -73,7 +88,7 @@
   // Saídas "O valor de x é 33"
   ```
 
-### Instrução switch
+### Instrução switch <a name="switch"></a>
 
 + Usado para testar uma variavel;
 + Exemplo de uso:
@@ -98,7 +113,7 @@
   // Resultados "três"
   ```
 
-### Loop while
+### Loop while <a name="while"></a>
 
 + Executa um bloco de código, enquanto condição for **true**;
 + Exemplo de uso:
@@ -116,7 +131,7 @@
   */
   ```
 
-### Loop for
+### Loop for <a name="for"></a>
 
 + Executa um bloco de código em número de vezes especifico;
 + Forma de uso:
@@ -143,7 +158,7 @@
   */
   ```
 
-### Loop do-while
+### Loop do-while <a name="doWhile"></a>
 
 + Similar ao *while*, exceto que é garantido que ele vai executar pelo menos uma vez;
 + Exemplo de uso:
@@ -164,7 +179,7 @@
   */
   ```
 
-### break
+### Break <a name="break"></a>
 
 + Usado para para um loop imediatamente;
 + Exemplo de uso:
@@ -189,7 +204,7 @@
   */
   ```
 
-### continue
+### Continue <a name="continue"></a>
 
 + Parecido com o *break*, com a única diferença que ele volta para o inicio do loop imediatamente;
 + Exemplo de uso:
@@ -214,7 +229,7 @@
   */
   ```
 
-### Operador "?"
+### Operador "?" <a name="operatorI"></a>
 
 + O operador **?** é um outro jeito de validar uma condicional;
 + O **?** funcionado seguinte jeito:
