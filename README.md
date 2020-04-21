@@ -39,6 +39,8 @@
 + bool: Booleano, true ou false;
 + string: Uma sequencia de caractere.
 
+[<<< Back to index](#index)
+
 ### Operadores Lógicos
 
 + Operadores Lógicos são usados para junta expressões e retornar um valor booleano;
@@ -48,6 +50,8 @@
   |    &&    |  AND | x && y   |
   |   \|\|   |  OR  | x \|\| y |
   |    !     |  NOT | !x       |
+
+[<<< Back to index](#index)
   
 ### Constante
 
@@ -57,6 +61,8 @@
   ```const
   const double PI = 3.14;
   ```
+
+[<<< Back to index](#index)
 
 ### Var keyword
 
@@ -68,6 +74,8 @@
   
   // num vai ser definido com um inteiro
   ```
+
+[<<< Back to index](#index)
 
 ### Instrução if
 
@@ -92,6 +100,8 @@
   
   // Saídas "O valor de x é 33"
   ```
+
+[<<< Back to index](#index)
 
 ### Instrução switch
 
@@ -118,6 +128,8 @@
   // Resultados "três"
   ```
 
+[<<< Back to index](#index)
+
 ### Loop while
 
 + Executa um bloco de código, enquanto condição for **true**;
@@ -135,6 +147,8 @@
   5
   */
   ```
+
+[<<< Back to index](#index)
 
 ### Loop for
 
@@ -163,6 +177,8 @@
   */
   ```
 
+[<<< Back to index](#index)
+
 ### Loop do-while
 
 + Similar ao *while*, exceto que é garantido que ele vai executar pelo menos uma vez;
@@ -183,6 +199,8 @@
   4
   */
   ```
+
+[<<< Back to index](#index)
 
 ### Break
 
@@ -209,6 +227,8 @@
   */
   ```
 
+[<<< Back to index](#index)
+
 ### Continue
 
 + Parecido com o *break*, com a única diferença que ele volta para o inicio do loop imediatamente;
@@ -234,6 +254,8 @@
   */
   ```
 
+[<<< Back to index](#index)
+
 ### Operador Condicional
 
 + O operador **?** é um outro jeito de validar uma condicional;
@@ -255,6 +277,8 @@
   msg = (resp == "brasilia")?"Acertou":"Errou";
   System.Console.WriteLine(msg);
   ```
+
+[<<< Back to index](#index)
 
 ## Métodos
 
@@ -286,6 +310,8 @@
   + **void**: é um tipo de dado que indica que é o método não retorna nada;
   + **static**: é usada para fazer os métodos ficarem acessiveis pelo método Main.
 
+[<<< Back to index](#index)
+
 ### Parâmetro
 
 + Parâmetros são "variáveis" que vão ser passadas quando a função for chamada;
@@ -299,6 +325,8 @@
   }
   ```
 
+[<<< Back to index](#index)
+
 #### Argumentos opicionais
 
 + Pode-se passar argumentos com valores padrões no método, caso esse valor não seja passado quando o método for chamado o valor padrão será usado;
@@ -310,6 +338,8 @@
       System.Console.WriteLine($"Hello, {name} {forname}");
   }
   ```
+
+[<<< Back to index](#index)
 
 #### Argumento Nomeado
 
@@ -330,6 +360,8 @@
   Output:
   Hello, Machado de Assis
   ```
+
+[<<< Back to index](#index)
 
 #### Passando Argumentos
 
@@ -359,6 +391,8 @@
 
 + *Nessa tipo de passar o argumento o valor de x não irá mudar;*
 
+[<<< Back to index](#index)
+
 ##### Reference
 
 + Por **referência** a variável passada para o método será afetada;
@@ -382,6 +416,8 @@
   10
   ```
 
+[<<< Back to index](#index)
+
 ##### Output
 
 + **Output** é similar ao reference, exceto que ele tranfere o dado para fora do método;
@@ -404,6 +440,8 @@
   Output:
   80
   ```
+
+[<<< Back to index](#index)
 
 #### Overloading
 
@@ -430,3 +468,5 @@
   Output:
   teste
   ```
+
+[<<< Back to index](#index)
