@@ -2,19 +2,19 @@
 
 ## Index
 
-**1.** [Tipos de Dados](#typeofdata)
-**2.** [Operadores Lógicos](#logicOperator)
-**3.** [Constante](#constant)
-**4.** [Var Keyword](#varKeyword)
-**5.** [If Else](#ifElse)
-**6.** [Switch](#switch)
-**7.** [Loop While](#while)
-**8.** [Loop For](#for)
-**9.** [Loop Do-While](#doWhile)
-**10.** [Break](#break)
-**11.** [Continue](#continue)
-**12.** [Operator \?](#operatorI)
-**12.** [Operator \?](#operatorI)
+1. [Tipos de Dados](#typeofdata)
+2. [Operadores Lógicos](#logicOperator)
+3. [Constante](#constant)
+4. [Var Keyword](#varKeyword)
+5. [If Else](#ifElse)
+6. [Switch](#switch)
+7. [Loop While](#while)
+8. [Loop For](#for)
+9. [Loop Do-While](#doWhile)
+10. [Break](#break)
+11. [Continue](#continue)
+12. [Operator \?](#operatorI)
+12. [Operator \?](#operatorI)
 
 
 
