@@ -6,14 +6,14 @@
 2. [Operadores Lógicos](#Operadores-Lógicos)
 3. [Constante](#Constante)
 4. [Var Keyword](#Var-keyword)
-5. [If Else](#Instrução-if-,else-if,-else)
+5. [If Else](#Instrução-if)
 6. [Switch](#Instrução-switch)
 7. [Loop While](#Loop-while)
 8. [Loop For](#Loop-for)
 9. [Loop Do-While](#Loop-do-while)
 10. [Break](#Break)
 11. [Continue](#Continue)
-12. [Operator \?](#Operador-"?")
+12. [Operator \?](#Operador-'-?-')
 13. [Método](#Métodos)
 14. [Parâmetro](#Parâmetro)
 15. [Argumento Opcional](#Argumentos-opicionais)
@@ -69,7 +69,7 @@
   // num vai ser definido com um inteiro
   ```
 
-### Instrução if ,else if, else
+### Instrução if
 
 + Usado para verificar uma condição;
 + Exemplo de uso:
@@ -234,7 +234,7 @@
   */
   ```
 
-### Operador "?"
+### Operador '?'
 
 + O operador **?** é um outro jeito de validar uma condicional;
 + O **?** funcionado seguinte jeito:
