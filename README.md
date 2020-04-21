@@ -14,8 +14,12 @@
 10. [Break](#break)
 11. [Continue](#continue)
 12. [Operator \?](#operatorI)
-12. [Operator \?](#operatorI)
-
+13. [Método](#method)
+14. [Parâmetro](#paramet)
+15. [Argumento Opcional](#optionalArg)
+16. [Argumento Nomeado](#namedArg)
+17. [Passando Argumentos](#passingArg)
+18. [Overloading](#overloading)
 
 
 ## Comandos linux
@@ -251,7 +255,7 @@
   System.Console.WriteLine(msg);
   ```
 
-## Métodos
+## Métodos <a name="method"></a>
 
 + Para usar o método, primeiro é necessário declara-lo e depois chama-lo;
 + Cada declaração de método inclui:
@@ -281,7 +285,7 @@
   + **void**: é um tipo de dado que indica que é o método não retorna nada;
   + **static**: é usada para fazer os métodos ficarem acessiveis pelo método Main.
 
-### Parâmetro
+### Parâmetro <a name="paramet"></a>
 
 + Parâmetros são "variáveis" que vão ser passadas quando a função for chamada;
 + Para passar um parâmetro para seu método é só por ele dentro dos pararênteses do seu método;
@@ -294,7 +298,7 @@
   }
   ```
 
-#### Argumentos opicionais
+#### Argumentos opicionais <a name="optionalArg"></a>
 
 + Pode-se passar argumentos com valores padrões no método, caso esse valor não seja passado quando o método for chamado o valor padrão será usado;
 + Exemplo:
@@ -306,7 +310,7 @@
   }
   ```
 
-#### Argumento Nomeado
+#### Argumento Nomeado <a name="namedArg"></a>
 
 + Ao chamar o método podemos nomear os argumentos para não precisarmos lembra a ordem do nosso método;
 + Exemplo:
@@ -326,7 +330,7 @@
   Hello, Machado de Assis
   ```
 
-#### Passando Argumentos
+#### Passando Argumentos<a name="passingArg"></a>
 
 + Há 3 maneiras de passar argumento quando um nétodo chamado: por **valor**, por **referência** e por **saída**;
 
@@ -400,7 +404,7 @@
   80
   ```
 
-#### Overloading
+#### Overloading <a name="overloading"></a>
 
 + Overload é usado para quando queremos usar o mesmo método mas diferentes tipos de dados;
 + Basicamente deve-se repetir o mesmo método usando um tipo de dado diferente;
