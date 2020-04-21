@@ -2,25 +2,26 @@
 
 ## Index
 
-1. [Tipos de Dados](#typeofdata)
-2. [Operadores Lógicos](#logicOperator)
-3. [Constante](#constant)
-4. [Var Keyword](#varKeyword)
-5. [If Else](#ifElse)
-6. [Switch](#switch)
-7. [Loop While](#while)
-8. [Loop For](#for)
-9. [Loop Do-While](#doWhile)
-10. [Break](#break)
-11. [Continue](#continue)
-12. [Operator \?](#operatorI)
-13. [Método](#method)
-14. [Parâmetro](#paramet)
-15. [Argumento Opcional](#optionalArg)
-16. [Argumento Nomeado](#namedArg)
-17. [Passando Argumentos](#passingArg)
-18. [Overloading](#overloading)
+1. [Tipos de Dados](#Tipos-de-Dados)
+2. [Operadores Lógicos](#Operadores-Lógicos)
+3. [Constante](#Constante)
+4. [Var Keyword](#Var-keyword)
+5. [If Else](#Instrução-if-,else-if,-else)
+6. [Switch](#Instrução-switch)
+7. [Loop While](#Loop-while)
+8. [Loop For](#Loop-for)
+9. [Loop Do-While](#Loop-do-while)
+10. [Break](#Break)
+11. [Continue](#Continue)
+12. [Operator \?](#Operador-"?")
+13. [Método](#Métodos)
+14. [Parâmetro](#Parâmetro)
+15. [Argumento Opcional](#Argumentos-opicionais)
+16. [Argumento Nomeado](#Argumento-Nomeado)
+17. [Passando Argumentos](#Passando-Argumentos)
+18. [Overloading](#Overloading)
 
+---
 
 ## Comandos linux
 
@@ -29,7 +30,7 @@
 
 ## Basico
 
-### Tipos de Dados <a name="typeOfData"></a>
+### Tipos de Dados
 
 + int: Inteiro;
 + float: Número com virgula(ponto);
@@ -38,7 +39,7 @@
 + bool: Booleano, true ou false;
 + string: Uma sequencia de caractere.
 
-### Operadores Lógicos <a name="logicOperator"></a>
+### Operadores Lógicos
 
 + Operadores Lógicos são usados para junta expressões e retornar um valor booleano;
 + Operadores:
@@ -48,7 +49,7 @@
   |   \|\|   |  OR  | x \|\| y |
   |    !     |  NOT | !x       |
   
-### Constante <a name="constant"></a>
+### Constante
 
 + Constates(**const**) são *"variaveis"* que não podem ser alteradas;
 + Exemplo:
@@ -57,7 +58,7 @@
   const double PI = 3.14;
   ```
 
-### Var keyword <a name="varKeyword"></a>
+### Var keyword
 
 + A keyword *var* é uma função para que o próprio c# defina o tipo de variável;
 + Exemplo:
@@ -68,7 +69,7 @@
   // num vai ser definido com um inteiro
   ```
 
-### Instrução if - else if - else <a name="ifElse"></a>
+### Instrução if ,else if, else
 
 + Usado para verificar uma condição;
 + Exemplo de uso:
@@ -92,7 +93,7 @@
   // Saídas "O valor de x é 33"
   ```
 
-### Instrução switch <a name="switch"></a>
+### Instrução switch
 
 + Usado para testar uma variavel;
 + Exemplo de uso:
@@ -117,7 +118,7 @@
   // Resultados "três"
   ```
 
-### Loop while <a name="while"></a>
+### Loop while
 
 + Executa um bloco de código, enquanto condição for **true**;
 + Exemplo de uso:
@@ -135,7 +136,7 @@
   */
   ```
 
-### Loop for <a name="for"></a>
+### Loop for
 
 + Executa um bloco de código em número de vezes especifico;
 + Forma de uso:
@@ -162,7 +163,7 @@
   */
   ```
 
-### Loop do-while <a name="doWhile"></a>
+### Loop do-while
 
 + Similar ao *while*, exceto que é garantido que ele vai executar pelo menos uma vez;
 + Exemplo de uso:
@@ -183,7 +184,7 @@
   */
   ```
 
-### Break <a name="break"></a>
+### Break
 
 + Usado para para um loop imediatamente;
 + Exemplo de uso:
@@ -208,7 +209,7 @@
   */
   ```
 
-### Continue <a name="continue"></a>
+### Continue
 
 + Parecido com o *break*, com a única diferença que ele volta para o inicio do loop imediatamente;
 + Exemplo de uso:
@@ -233,7 +234,7 @@
   */
   ```
 
-### Operador "?" <a name="operatorI"></a>
+### Operador "?"
 
 + O operador **?** é um outro jeito de validar uma condicional;
 + O **?** funcionado seguinte jeito:
@@ -255,7 +256,7 @@
   System.Console.WriteLine(msg);
   ```
 
-## Métodos <a name="method"></a>
+## Métodos
 
 + Para usar o método, primeiro é necessário declara-lo e depois chama-lo;
 + Cada declaração de método inclui:
@@ -285,7 +286,7 @@
   + **void**: é um tipo de dado que indica que é o método não retorna nada;
   + **static**: é usada para fazer os métodos ficarem acessiveis pelo método Main.
 
-### Parâmetro <a name="paramet"></a>
+### Parâmetro
 
 + Parâmetros são "variáveis" que vão ser passadas quando a função for chamada;
 + Para passar um parâmetro para seu método é só por ele dentro dos pararênteses do seu método;
@@ -298,7 +299,7 @@
   }
   ```
 
-#### Argumentos opicionais <a name="optionalArg"></a>
+#### Argumentos opicionais
 
 + Pode-se passar argumentos com valores padrões no método, caso esse valor não seja passado quando o método for chamado o valor padrão será usado;
 + Exemplo:
@@ -310,7 +311,7 @@
   }
   ```
 
-#### Argumento Nomeado <a name="namedArg"></a>
+#### Argumento Nomeado
 
 + Ao chamar o método podemos nomear os argumentos para não precisarmos lembra a ordem do nosso método;
 + Exemplo:
@@ -330,7 +331,7 @@
   Hello, Machado de Assis
   ```
 
-#### Passando Argumentos<a name="passingArg"></a>
+#### Passando Argumentos
 
 + Há 3 maneiras de passar argumento quando um nétodo chamado: por **valor**, por **referência** e por **saída**;
 
@@ -404,7 +405,7 @@
   80
   ```
 
-#### Overloading <a name="overloading"></a>
+#### Overloading
 
 + Overload é usado para quando queremos usar o mesmo método mas diferentes tipos de dados;
 + Basicamente deve-se repetir o mesmo método usando um tipo de dado diferente;
