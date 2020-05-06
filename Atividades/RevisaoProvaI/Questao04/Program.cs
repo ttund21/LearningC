@@ -23,41 +23,48 @@ namespace Questao04
             System.Console.Write("1 - For\n2 - While\n>> ");
             resp = int.Parse(Console.ReadLine());
 
-            if (resp == 1){
-                for (int i = 0;i < 10; i++){
-                    System.Console.Write("Idade: ");
-                    idade = int.Parse(Console.ReadLine());
+            switch(resp){
+                case 1:
+                    for (int i = 0;i < 10; i++){
+                        System.Console.Write("Idade: ");
+                        idade = int.Parse(Console.ReadLine());
 
-                    if (idade >= 18){
-                        System.Console.WriteLine("Maior de idade!");
+                        if (idade >= 18){
+                            System.Console.WriteLine("Maior de idade!");
+                        }
+                        else if (idade >= 65){
+                            System.Console.WriteLine("Maior de 65 anos!");
+                        }
+                        else {
+                            System.Console.WriteLine("Menor de idade!");
+                        }
                     }
-                    else if (idade >= 65){
-                        System.Console.WriteLine("Maior de 65 anos!");
-                    }
-                    else {
-                        System.Console.WriteLine("Menor de idade!");
-                    }
-                }
-            }
-            else if (resp == 2){
-                while(true){
-                    System.Console.Write("Idade: ");
-                    idade = Console.ReadLine();
+                    break;
+            
+                case 2:
+                    while(true){
+                        System.Console.Write("Idade: ");
+                        idade = Console.ReadLine();
                     
-                    if (idade == "P"){
-                        break;
-                    }
+                        if (idade == "P"){
+                            break;
+                        }
 
-                    if (int.Parse(idade) >= 18){
-                        System.Console.WriteLine("Maior de idade!");
+                        if (int.Parse(idade) >= 18){
+                            System.Console.WriteLine("Maior de idade!");
+                        }
+                        else if (int.Parse(idade) >= 65){
+                            System.Console.WriteLine("Maior de 65 anos!");
+                        }
+                        else {
+                            System.Console.WriteLine("Menor de idade!");
+                        }                    
                     }
-                    else if (int.Parse(idade) >= 65){
-                        System.Console.WriteLine("Maior de 65 anos!");
-                    }
-                    else {
-                        System.Console.WriteLine("Menor de idade!");
-                    }                    
-                }
+                    break;
+
+                default:
+                    System.Console.WriteLine("Valor Inválido!");
+                    break;
             }
         }
     }
