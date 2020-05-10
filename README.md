@@ -470,3 +470,58 @@
   ```
 
 [<<< Back to index](#index)
+
+## Classes & Objects
+
++ **Classes:** Em programação orientada a objeto, classe é um tipo de dado que define um set de variáveis e métodos para um objeto;
++ **Objects:** Objetos são entidades concretas baseadas em classes, as vezes é referenciada como instancia de uma classe.
+
+### Exemplo de class
+
++ Criando um class carro:
+
+  ```classCar
+  class Carro
+  {
+    int portas = 2;
+    string nome = "Calhambeque";
+    public void buzina()
+    {
+      System.Console.WriteLine("Bip Bip");
+    }
+
+    static void Main(string[]args)
+    {
+      Carro c1 = new Carro();
+      c1.buzina();
+    }
+  }
+  ```
+
++ O código acima cria uma classe carro, aonde tem variáveis *portas* e *nome* e um método chamado *buzina* que mostra na tela uma representação de buzina;
++ Um membro da class definido com o *public* pode ser acessado fora da classe;
++ O operador *new* instancia um objeto e retorna uma referencia para seu local de origem;
++ A linha *Carro p1 = new Carro();* declara que um objeto da classe carro chamada de c1;
++ Então na proxima linha *c1.buzina();* ele chama o método **publico** *buzina()*;
+
++ Exemplo de variáveis públicas:
+
+  ```classPublicVars
+  class Carro
+  {
+    public int portas;
+    public string nome;
+    public void buzina()
+    {
+      System.Console.WriteLine("Bip Bip");
+    }
+
+    static void Main(string[]args)
+    {
+      Carro c1 = new Carro();
+      c1.portas = 2;
+      c1.nome = "Calhambeque";
+      c1.buzina();
+    }
+  }
+  ```
