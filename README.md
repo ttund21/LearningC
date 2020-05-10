@@ -531,3 +531,13 @@
 [<<< Back to index](#index)
 
 ### Encapsulation
+
++ Encapsulação significa restringir acesso ao funcionamento interno;
++ Encapsulação é implementado usando **access modifiers**;
++ Um access modifier difine o escopo e visibilidade de um membro da classe.
++ C# suporta os seguintes tipos de modificadores de acesso(access modifier):
+  + public: deixa o membro acessivel fora da classe;
+  + private: deixa acessivel somente dentro da classe;
+  + protected;
+  + internal;
+  + protected internal;
