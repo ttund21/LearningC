@@ -22,6 +22,7 @@
 18. [Overloading](#Overloading)
 19. [Classes & Objects](#classes--objects)
 20. [Exemplo de class](#exemplo-de-class)
+21. [Encapsulation](#encapsulation)
 
 ---
 
@@ -541,3 +542,5 @@
   + protected;
   + internal;
   + protected internal;
+
+[<<< Back to index](#index)
