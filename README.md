@@ -20,6 +20,8 @@
 16. [Argumento Nomeado](#Argumento-Nomeado)
 17. [Passando Argumentos](#Passando-Argumentos)
 18. [Overloading](#Overloading)
+19. [Classes & Objects](#classes--objects)
+20. [Exemplo de class](#exemplo-de-class)
 
 ---
 
@@ -525,3 +527,7 @@
     }
   }
   ```
+
+[<<< Back to index](#index)
+
+### Encapsulation
